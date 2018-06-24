@@ -1,0 +1,16 @@
+* Design to be:
+-responsive
+-Mobile first
+-Fluid: automatically adapting to screen width
+* CSS Flexbox layout:
+easy vertical alignment with parent element
+_______________________________________________________
+Navigation:
+Breadcrumbs:
+ex: Home > Menu > Appetizers
+Indicate current page's location in 3 ways:
+-path based: set of steps
+-location based: hierarchy
+-attribute based: set of choices
+Navigation aids:
+tabs, pills, pagination, dropdowns, accordion, tags, Affix

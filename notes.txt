@@ -20,4 +20,8 @@ Icon Fonts: (i.e. simple graphics)
 can be styled just like texts (scale, color, font, etc.)
 download FontAwesome and bootstrap-social
 _______________________________________________________
-Buttons:
+Buttons and forms
+
+_______________________________________________________
+Tables:
+use of bootstrap tables/cards to display table content.

@@ -4,6 +4,7 @@
 -Fluid: automatically adapting to screen width
 * CSS Flexbox layout:
 easy vertical alignment with parent element
+download bootstrap
 _______________________________________________________
 Navigation:
 Breadcrumbs:
@@ -14,6 +15,9 @@ Indicate current page's location in 3 ways:
 -attribute based: set of choices
 Navigation aids:
 tabs, pills, pagination, dropdowns, accordion, tags, Affix
-________________________________________________________
+_______________________________________________________
 Icon Fonts: (i.e. simple graphics)
 can be styled just like texts (scale, color, font, etc.)
+download FontAwesome and bootstrap-social
+_______________________________________________________
+Buttons:

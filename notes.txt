@@ -30,3 +30,9 @@ _______________________________________________________
 Images/Media:
 
 Use Bootstrap cards to do so.
+Use media objects to manage media + some text.
+_______________________________________________________
+Alerting Users:
+Badge : badge class/ badge-danger / badge-pill
+Alerts : alert class/ alert-warning alert-dismissible
+Progress bar: progress-bar / progress-bar-striped bg-danger

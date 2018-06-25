@@ -23,5 +23,10 @@ _______________________________________________________
 Buttons and forms
 
 _______________________________________________________
-Tables:
+Tables cards:
 use of bootstrap tables/cards to display table content.
+
+_______________________________________________________
+Images/Media:
+
+Use Bootstrap cards to do so.

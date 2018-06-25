@@ -9,6 +9,9 @@ body {
   z-index: 0;
 }
 
+.btn-info {
+  background-color: #622DA8; 
+}
 .navbar-dark {
   background-color: #622DA8;
 }

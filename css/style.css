@@ -10,11 +10,20 @@ body {
 }
 
 .btn-info {
-  background-color: #622DA8; 
+  background-color: #622DA8;
 }
 .navbar-dark {
   background-color: #622DA8;
 }
+
+.tab-content{
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+
+}
+
 .row-header{
   margin: 0px auto;
   padding: 0px auto;

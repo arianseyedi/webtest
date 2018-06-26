@@ -36,3 +36,12 @@ Alerting Users:
 Badge : badge class/ badge-danger / badge-pill
 Alerts : alert class/ alert-warning alert-dismissible
 Progress bar: progress-bar / progress-bar-striped bg-danger
+_______________________________________________________
+Accordion and Other collapsible elements
+
+use cards and nav-items to accomplish that
+_______________________________________________________
+Tooltips: guidance/hover info,
+Popovers: guidance upon first click.
+Modals: more detailed info like alert in js or login overlay
+screens that can be exited by clicking outside that area.

@@ -15,10 +15,12 @@ Indicate current page's location in 3 ways:
 -attribute based: set of choices
 Navigation aids:
 tabs, pills, pagination, dropdowns, accordion, tags, Affix
+
 _______________________________________________________
 Icon Fonts: (i.e. simple graphics)
 can be styled just like texts (scale, color, font, etc.)
 download FontAwesome and bootstrap-social
+
 _______________________________________________________
 Buttons and forms
 
@@ -31,20 +33,44 @@ Images/Media:
 
 Use Bootstrap cards to do so.
 Use media objects to manage media + some text.
+
 _______________________________________________________
 Alerting Users:
 Badge : badge class/ badge-danger / badge-pill
 Alerts : alert class/ alert-warning alert-dismissible
 Progress bar: progress-bar / progress-bar-striped bg-danger
+
 _______________________________________________________
 Accordion and Other collapsible elements
 
 use cards and nav-items to accomplish that
+
 _______________________________________________________
 Tooltips: guidance/hover info,
 Popovers: guidance upon first click.
 Modals: more detailed info like alert in js or login overlay
 screens that can be exited by clicking outside that area.
 
+_______________________________________________________
+Carousel: allows a slide-show, can also manually slide items e.g., left/right
+
 
 _______________________________________________________
+jQuery Syntax:
+
+$(selector).action()
+$ defines/access jquery
+selector: to query and find HTML elements
+-action(): action to be performed on the elements
+-e.g. $("p").hide(), $('#mycarousel').carousel('pause')
+
+** any HTML element e.g. "p", "div", "button"
+** using #id, e.g. '#myID'
+** class, e.g. ".btn", ".btn.btn-default"
+** attribute, e.g., "[href]", "[data-toggle=tooltip]"
+** current element: $(this)
+** Events:
+  mouse clicks, double clicks,
+  keyboard,
+  form: submit, change, focus, blur
+  doc/window: resize, load

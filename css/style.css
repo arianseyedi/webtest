@@ -1,30 +1,28 @@
 header {
   margin: 50px auto;
   padding: 50px 0px 50px 0px;
-
 }
 
 body {
-  padding: 50px 0px 0px 0px
-  z-index: 0;
+  padding: 50px 0px 0px 0px z-index: 0;
 }
 
 .btn-info {
   background-color: #622DA8;
 }
+
 .navbar-dark {
   background-color: #622DA8;
 }
 
-.tab-content{
+.tab-content {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   padding: 10px;
-
 }
 
-.row-header{
+.row-header {
   margin: 0px auto;
   padding: 0px auto;
 }
@@ -43,14 +41,63 @@ body {
 }
 
 .jumbotron {
-  padding: 70px 30px 70px 30px
-  margin: 0px auto;
+  padding: 70px 30px 70px 30px margin: 0px auto;
   background: #9575CD;
   color: floralwhite
 }
 
 .address {
-  font-size: : 80%
-  margin: 0px;
+  font-size: : 80% margin: 0px;
   color: #0f0f0f;
+}
+
+.carousel {
+  background: #512DA8;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-caption {
+  margin-left: 25%;
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+
+@media screen and (min-width: 765px) and (max-width: 991px) {
+  .carousel-caption {
+    right: 10%;
+    top: 50%;
+    margin-left: 35%;
+  }
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 25%;
+}
+
+@media only screen and (max-width: 765px) {
+  .carousel-item img {
+    max-height: 100%;
+    min-width: 100%;
+  }
+
+  #resTable {
+    margin-top: 10%;
+  }
+}
+
+#carouselButton {
+  right: 0px !important;
+  position: absolute !important;
+  bottom: 0px !important;
 }

@@ -79,5 +79,22 @@ Sass/Less: CSS Pre-Processors
 Variables, nesting selectors, mix-ins, funcs/expressions for CSS!
 
 *mix-ins: group of variables using (can use mathematical operations on )
-*mix-ins with parameters: use mix-ins that take parameters (just like functions)
-*Functions: math, list, string, color
+*mix-ins with parameters: use mix-ins that take parameters
+(just like functions) *Functions: math, list, string, color
+
+_______________________________________________________
+DEPLOYMENT:
+
+-steps beforehand: (need build tools to automate tasks)
+  * autoprefixing: to add any vendor prefixes that are needed
+  * minification: removing unnecessary characters, reducing characters
+    (e.g. variable name lengths) to reduce processing times
+  * cocatenation: binding, say, multiple css files into one so that
+    the user needs to dl one file only.
+  * rechecking for errors (static code analysis)
+  Other:
+  * Images: optimizing files
+  * Watch: for changes in files and automatically running tasks
+  * Server and Liverload
+  * Testing
+  * Building your site for deployment

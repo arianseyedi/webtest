@@ -1,0 +1,123 @@
+/*--------------------------------------Variables------------------------------
+  color variables*/
+@lt-gray: #ddd;
+@col-turquoise: #622DA8;
+@background-dark: #622DA8;
+@background-light: #9575CD;
+@background-footer: #F1C4E9;
+@carousel-item-height: 300px; // height variables:
+/*---------------------------------------CSS----------------------------------
+############################## Tags*/
+header {
+  margin: 50px auto;
+  padding: 50px 0;
+}
+
+address {
+  font-size: 80%;
+  margin: 0;
+  color: #0f0f0f;
+}
+
+body {
+  padding: 50px 0 0;
+  z-index: 0;
+}
+/*--------------------------------------Mix-ins-------------------------------*/
+/*############################## IDs*/
+
+#carouselButton {
+  right: 0 !important;
+  position: absolute !important;
+  bottom: 0 !important;
+}
+/*############################## Classes*/
+
+.zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {
+  margin: 0 auto;
+  padding: @pad-up-dn @pad-left-right;
+}
+
+.row-header {
+  .zero-margin();
+}
+
+.row-content {
+  .zero-margin(50px, 0px);
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+
+.footer {
+  background-color: @background-footer;
+  .zero-margin(50px, 0px);
+}
+
+.jumbotron {
+  .zero-margin(70px, 30px);
+  background: @background-light;
+  color: floralwhite;
+}
+
+.navbar-dark {
+  background-color: @background-dark;
+}
+
+.tab-content {
+  border-left: 1px solid @lt-gray;
+  border-right: 1px solid @lt-gray;
+  border-bottom: 1px solid @lt-gray;
+  padding: 10px;
+}
+
+.btn-info {
+  background-color: @col-turquoise;
+  color: floralwhite;
+}
+
+.carousel {
+  background: @background-dark;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.carousel-item {
+  height: @carousel-item-height;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+  }
+}
+// centralize and move right, away from pictures
+
+.carousel-caption {
+  margin-left: 25%;
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+//############################## Media Queries
+// because text would bleed into the pics
+@media screen and (min-width: 765px) and (max-width: 991px) {
+  .carousel-caption {
+    right: 10%;
+    top: 50%;
+    margin-left: 35%;
+  }
+}
+// because photos will be smaller than the frame, showing purple* band on right
+@media only screen and (max-width: 765px) {
+  .carousel-item img {
+    max-height: 100%;
+    min-width: 100%;
+  }
+
+  #resTable {
+    // this is the reserve table button in header
+    margin-top: 10%;
+  }
+}

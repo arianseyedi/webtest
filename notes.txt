@@ -54,7 +54,6 @@ screens that can be exited by clicking outside that area.
 _______________________________________________________
 Carousel: allows a slide-show, can also manually slide items e.g., left/right
 
-
 _______________________________________________________
 jQuery Syntax:
 
@@ -74,3 +73,11 @@ selector: to query and find HTML elements
   keyboard,
   form: submit, change, focus, blur
   doc/window: resize, load
+
+_______________________________________________________
+Sass/Less: CSS Pre-Processors
+Variables, nesting selectors, mix-ins, funcs/expressions for CSS!
+
+*mix-ins: group of variables using (can use mathematical operations on )
+*mix-ins with parameters: use mix-ins that take parameters (just like functions)
+*Functions: math, list, string, color

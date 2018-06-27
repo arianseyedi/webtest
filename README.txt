@@ -21,4 +21,7 @@ npm -v
 12. npm -g install copyfiles // copy-move files
 13. npm -g install imagemin-cli --unsafe-perm=true --allow-root // image optimization
 14. npm install --save-dev usemin-cli cssmin uglifyjs htmlmin //transformation of js/html/css files (dependencies exist so do all must be installed)
-15.
+15. npm install -g grunt-cli
+16. npm instal --save-dev grunt
+17. npm install --save-dev grunt-sass
+18. npm install --save-dev time-grunt jit-grunt

@@ -4,7 +4,7 @@
           $('[data-toggle="tooltip"]').tooltip();
         });
       */
-// carousel buttons and handling of pause/play actions
+// carousel buttons and handling of pause/play actions.
 $(document).ready(function() {
   $('#mycarousel').carousel({
     interval: 3000
@@ -21,6 +21,5 @@ $(document).ready(function() {
       $('#carouselButton').children('span').removeClass('fa-play');
       $('#carouselButton').children('span').addClass('fa-pause');
     }
-
   });
 });

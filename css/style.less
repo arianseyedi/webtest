@@ -24,6 +24,13 @@ body {
   z-index: 0;
 }
 /*--------------------------------------Mix-ins-------------------------------*/
+
+.zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {
+  margin: 0 auto;
+  padding: @pad-up-dn @pad-left-right;
+}
+
+/*----------------------------------IDs & Classes-----------------------------*/
 /*############################## IDs*/
 
 #carouselButton {
@@ -33,10 +40,6 @@ body {
 }
 /*############################## Classes*/
 
-.zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {
-  margin: 0 auto;
-  padding: @pad-up-dn @pad-left-right;
-}
 
 .row-header {
   .zero-margin();

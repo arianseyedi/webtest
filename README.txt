@@ -15,3 +15,5 @@ npm -v
 6. npm install font-awesome@4.7.0 --save
 7. npm install bootstrap-social@5.1.1
 8. npm install --save-dev node-sass
+9. npm install --save-dev onchange
+10. npm install --save-dev parallelshell

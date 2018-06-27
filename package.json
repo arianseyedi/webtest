@@ -9,7 +9,8 @@
     "lite": "lite-server",
     "scss": "node-sass -o css/ css/",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
-    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
+    "echo1echo2": "parallelshell \"echo 1\" \"echo 2\""
   },
   "author": "",
   "license": "ISC",

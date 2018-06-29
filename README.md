@@ -1,5 +1,5 @@
 ### Intro:
-This is part of the 5 course specialization brought about by Coursera. The [first course](https://www.coursera.org/learn/bootstrap-4?specialization=full-stack-mobile-app-development "Front End Dev") is on front end development which is free.
+This is part of the 5 course specialization brought about by Coursera. The [first course](https://www.coursera.org/learn/bootstrap-4?specialization=full-stack-mobile-app-development "Front End Dev") is on front end development which is free. As I am moving forward with this specialization course, I update this repository so stay tuned! :-)
 
 ### To make it work:
 
